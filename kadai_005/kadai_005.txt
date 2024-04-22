@@ -1,0 +1,71 @@
+
+mnmy1@yama1021 MINGW64 /C/Users/mnmy1/study/git_tutorial (main)
+$ mkdir git_challenge
+
+mnmy1@yama1021 MINGW64 /C/Users/mnmy1/study/git_tutorial (main)
+$ cd git_challenge/
+
+mnmy1@yama1021 MINGW64 /C/Users/mnmy1/study/git_tutorial/git_challenge (main)
+$ touch hello.world.txt
+
+mnmy1@yama1021 MINGW64 /C/Users/mnmy1/study/git_tutorial/git_challenge (main)
+$ echo " Hello,world!" > hello.world.txt
+
+
+mnmy1@yama1021 MINGW64 /C/Users/mnmy1/study/git_tutorial/git_challenge (main)
+$ git add hello_world.txt
+
+mnmy1@yama1021 MINGW64 /C/Users/mnmy1/study/git_tutorial/git_challenge (main)
+$ git commit -m "hello_world.txtを追加"
+On branch main
+nothing to commit, working tree clean
+
+mnmy1@yama1021 MINGW64 /C/Users/mnmy1/study/git_tutorial/git_challenge (main)
+$ git push -u origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 381 bytes | 381.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/yamanami-21/samurai-terakoya.git
+   b7ab648..abb1166  main -> main
+branch 'main' set up to track 'origin/main'.
+
+mnmy1@yama1021 MINGW64 /C/Users/mnmy1/study/git_tutorial/git_challenge (main)
+$ echo "こんにちは、世界！" >> hello_world.txt
+
+mnmy1@yama1021 MINGW64 /C/Users/mnmy1/study/git_tutorial/git_challenge (main)
+$ git add hello_world.txt
+warning: in the working copy of 'hello_world.txt', LF will be replaced by CRLF the next time Git touches it
+
+mnmy1@yama1021 MINGW64 /C/Users/mnmy1/study/git_tutorial/git_challenge (main)
+$ git commit -m "日本語訳を追記"
+[main 5cae5f2] 日本語訳を追記
+ 1 file changed, 1 insertion(+)
+
+mnmy1@yama1021 MINGW64 /C/Users/mnmy1/study/git_tutorial/git_challenge (main)
+$ git push -u origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Writing objects: 100% (3/3), 322 bytes | 322.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/yamanami-21/samurai-terakoya.git
+   abb1166..5cae5f2  main -> main
+branch 'main' set up to track 'origin/main'.
+
+mnmy1@yama1021 MINGW64 /C/Users/mnmy1/study/git_tutorial/git_challenge (main)
+$ cd ..
+
+mnmy1@yama1021 MINGW64 /C/Users/mnmy1/study/git_tutorial (main)
+$ mkdir kadai_005
+
+mnmy1@yama1021 MINGW64 /C/Users/mnmy1/study/git_tutorial (main)
+$ cd kadai_005/
+
+mnmy1@yama1021 MINGW64 /C/Users/mnmy1/study/git_tutorial/kadai_005 (main)
+$ touch kadai_005.txt
+
+mnmy1@yama1021 MINGW64 /C/Users/mnmy1/study/git_tutorial/kadai_005 (main)
+$
