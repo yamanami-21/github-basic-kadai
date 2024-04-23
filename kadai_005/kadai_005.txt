@@ -33,6 +33,7 @@ To https://github.com/yamanami-21/samurai-terakoya.git
    b7ab648..abb1166  main -> main
 branch 'main' set up to track 'origin/main'.
 
+
 mnmy1@yama1021 MINGW64 /C/Users/mnmy1/study/git_tutorial/git_challenge (main)
 $ echo "こんにちは、世界！" >> hello_world.txt
 
@@ -69,3 +70,11 @@ $ touch kadai_005.txt
 
 mnmy1@yama1021 MINGW64 /C/Users/mnmy1/study/git_tutorial/kadai_005 (main)
 $
+
+mnmy1@yama1021 MINGW64 /C/Users/mnmy1/study/git_tutorial (main)
+$ git log --oneline
+e3ed6fc (HEAD -> main) コミットメッセージを修正
+6e485f9 (origin/main) READMEファイル追加
+7d4de00 READMEファイル追加
+5cae5f2 日本語訳を追記
+a392645 hello_world.txtを追加
